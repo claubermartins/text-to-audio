@@ -1,0 +1,43 @@
+# Ignorar arquivos de ambiente virtual
+venv/
+env/
+.venv/
+.env/
+
+# Ignorar arquivos de cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignorar arquivos de configuração do Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Ignorar arquivos de configuração local do Jupyter
+.jupyter/
+.vscode/
+
+# Ignorar arquivos de log e dados
+*.log
+*.sqlite3
+
+# Ignorar arquivos de configuração do VS Code (se usado)
+.vscode/
+
+# Ignorar arquivos de configuração do Pycharm (se usado)
+.idea/
+
+# Ignorar arquivos de distribuição / build
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Ignorar arquivos de configuração sensíveis
+.env
+.env.local
+.env.*.local
+
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
